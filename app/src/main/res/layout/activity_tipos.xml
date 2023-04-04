@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".tipos">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="@string/app_tipo"
+        android:layout_width="wrap_content"
+        android:textColor="@color/green"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/img_negroT"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/img_2" />
+
+    <Button
+        android:id="@+id/btnsonido_negro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="-70dp"
+        android:text="Escucha" />
+
+    <ImageView
+        android:id="@+id/img_verdet"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/img_3" />
+
+    <Button
+        android:id="@+id/btnsonido_verde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="-70dp"
+        android:backgroundTint="@color/green"
+        android:text="Escucha" />
+
+    <ImageView
+        android:id="@+id/img_blancot"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/img_1" />
+
+    <Button
+        android:id="@+id/btnsonido_blanco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="-70dp"
+        android:text="Escucha" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/green"
+        android:onClick="menu"
+        android:text="@string/button_return"
+        android:layout_marginTop="490dp"
+        />
+
+
+
+</LinearLayout>
